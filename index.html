@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario</title>
     <link rel="stylesheet" href="CSS/styles.css">
 </head>
+
 <body>
     <main>
-        <div class="formulario">
+        <form class="formulario" action="">
             <h2>Formulario</h2>
             <div class="input-group">
                 <label for="nombre">Nombre</label>
@@ -32,7 +34,7 @@
                     <option value="TI">Tarjeta de Identidad (TI)</option>
                 </select>
             </div>
-            
+
             <div class="input-group">
                 <label for="DNI">DNI</label>
                 <input id="DNI" type="text">
@@ -42,7 +44,7 @@
                 <label for="fechanacimiento">Fecha nacimiento</label>
                 <input id="fechanacimiento" type="date">
             </div>
-            
+
             <div class="input-group span-2">
                 <label for="email">email</label>
                 <input id="email" type="text">
@@ -71,7 +73,8 @@
             </div>
 
             <button type="submit" class="btn-submit">Enviar Formulario</button>
-        </div>
+        </form>
     </main>
 </body>
+
 </html>
